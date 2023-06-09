@@ -1,0 +1,238 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header code start */
+    .s-header{
+        position: sticky;
+        top: 0;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.5s ease;
+
+    }
+    .s-header ul li{
+        margin: 5px 0;
+    }
+    .s-header ul li a{
+        margin-top: 5px;
+        font-size: 20px;
+        width: 80%;
+    }
+    /* header code end */
+    /*  services section code start */
+    .servise-section{
+        padding-bottom: 40px;
+        background-color: rgba(169, 169, 169, 0.445);
+    }
+    .sec-title{
+        padding: 30px 0;
+    }
+    .sec-title h2{
+        font-size: 25px;
+    }
+    .s-servise-box{
+        padding: 10px 10px;
+        margin-bottom: 30px;
+        color: #333;
+        background-color: #ffbf00;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    /* smart area section code start */
+    .smart-area{
+       padding: 0px 0 40px;
+    }
+    .smart-text{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .smart-p{
+        font-size: 18px;
+        
+    }
+    .smart-ti{
+        font-size: 25px;
+    }
+        
+    .chack-out{
+        margin-top: 20px;
+    }
+    /* smart area section code end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header code start */
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .s-header ul li{
+        margin: 5px 0;
+    }
+    .s-header ul li a{
+        margin-top: 5px;
+        font-size: 25px;
+        width: 92%;
+    }
+    /* header code end */
+    /*  services section code start */
+    .servise-section{
+        padding-bottom: 50px;
+        background-color: rgba(169, 169, 169, 0.445);
+    }
+    .sec-title{
+        padding: 40px 0;
+    }
+    .sec-title h2{
+        font-size: 25px;
+    }
+    .s-servise-box{
+        padding: 10px 10px;
+        margin-bottom: 30px;
+        color: #333;
+        background-color: #ffbf00;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    /* smart area section code start */
+    .smart-area{
+        padding: 0px 0 45px;
+    }
+    .smart-text{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .smart-ti{
+        font-size: 30px;
+    }
+    
+    .chack-out{
+        margin-top: 20px;
+    }
+    /* smart area section code end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header code start */
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .manu-bar i::before{
+        content: "\f00d";
+    }
+    .manu-bar{
+        display: block;
+    }
+    .s-header ul{
+        position: fixed;
+        top: 59px;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        flex-direction: column;
+        background-color: cadetblue;
+        text-align: center;
+        transition: all 0.7s ease;
+    }
+    .s-header ul li{
+        margin: 5px 0;
+    }
+    .s-header ul li a{
+        margin-top: 5px;
+        font-size: 25px;
+        width: 92%;
+    }
+    
+    
+    /* header code end */
+    /*  services section code start */
+    .servise-section{
+        padding-bottom: 40px;
+        background-color: rgba(169, 169, 169, 0.445);
+    }
+    .sec-title{
+        padding: 30px 0;
+    }
+    .sec-title h2{
+        font-size: 30px;
+    }
+    .s-servise-box{
+        padding: 10px 10px;
+        margin-bottom: 30px;
+        color: #333;
+        background-color: #ffbf00;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    /* smart area section code start */
+    .smart-area{
+        padding: 0px 0 45px;
+    }
+    .smart-text{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .smart-ti{
+        font-size: 30px;
+    }
+    
+    .chack-out{
+        margin-top: 20px;
+    }
+    /* smart area section code end */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1299px) and (max-width: 1399.98px) { 
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

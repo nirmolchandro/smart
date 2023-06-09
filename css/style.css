@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+}
+/* .container{
+    border: 1px solid #000;
+} */
+header{
+    background-color: cadetblue;
+    position: sticky;
+    top: 0;
+}
+.s-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.s-header ul{
+    display: flex;
+}
+.s-header ul li{
+    list-style: none;
+}
+.s-header ul li a{
+    margin-left: 10px;
+    padding: 5px 15px;
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+.s-header ul li a:hover{
+    background-color: #e49b0f;
+    
+}
+.active{
+    background-color: #e49b0f;
+}
+#click{
+    display: none;
+}
+.manu-bar{
+    display: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* baner section code start */
+.banner{
+    background-image: url("../img/web-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+/* baner section code end */
+/*  services section code start */
+.servise-section{
+    padding-bottom: 70px;
+    background-color: rgba(199, 196, 196, 0.445);
+}
+.sec-title{
+    padding: 50px 0;
+}
+.sec-title h2{
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.s-servise-box{
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    color: #333;
+    background-color: #ffbf00;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.s-servise-box:hover{
+    background-color: #ff9f00;
+}
+.s-servise-box i{
+    font-size: 50px;
+    padding: 20px;
+}
+.s-servise-box h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+/*  services section code end */
+/* smart area section code start */
+.smart-area{
+    padding: 0px 0 80px;
+}
+.smart-img{
+    width: 100%;
+}
+.smart-img img{
+    width: 100%;
+}
+.smart-text{
+
+}
+.smart-p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.smart-ti{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.smart-long{
+    font-size: 16px;
+    text-align: justify;
+}
+.chack-out{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #333;
+    background-color: #ff9f00;
+    border-radius: 10px;
+}
+/* smart area section code end */
+
+
+
+
+
+
+
